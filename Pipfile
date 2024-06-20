@@ -9,6 +9,10 @@ python-dotenv = "*"
 jinja2 = "*"
 flask-wtf = "*"
 wtforms = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+alembic = "*"
+flask-migrate = "*"
 
 [dev-packages]
 

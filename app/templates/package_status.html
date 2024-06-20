@@ -1,0 +1,11 @@
+{% for package in packages %}
+<ul>
+    <li>{{package.id}}</li>
+    <li>{{package.sender}}</li>
+    <li>{{package.recipient}}</li>
+    <li>{{package.origin}}</li>
+    <li>{{package.destination}}</li>
+    <li>{{package.location}}</li>
+</ul>
+
+{% endfor %}
